@@ -1,0 +1,8 @@
+# Ignore the entire dataset folder
+fruits-360*/
+
+# Ignore large model files. They are build artifacts, not source code.
+*.pth
+
+# For one time setup scripts
+generate_class_names.py
